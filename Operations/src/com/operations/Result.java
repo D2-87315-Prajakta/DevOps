@@ -46,7 +46,34 @@ public class Result {
 		return "Result [sum=" + sum + ", max=" + max + ", average=" + average + "]";
 	}
 	
-	
+//	public static Result operations(int[] arr) {
+//	
+//	if(arr.length == 0) {
+//		return null;
+//	}
+//	
+//	int sum = 0;
+//	int max = 0;
+//	
+//	for(int i=0; i<arr.length; i++) {
+//		sum += arr[i];
+//		
+//		if(arr[i]>max) {
+//			max = arr[i];
+//		}
+//	}
+//	
+//	double average  = sum/arr.length;
+//	
+//	Result res = new Result();
+//	res.setSum(sum);
+//	res.setMax(max);
+//	res.setAverage(average);
+//	
+//	
+//	return res;
+//}
+
 	
 
 }
